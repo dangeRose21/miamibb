@@ -89,7 +89,6 @@ header {
   position: absolute;
   top: 80%;
   left: 50%;
-  width: 90%;
   transform: translate(-50%, -50%);
   text-align: left;
   color: white;
@@ -108,7 +107,7 @@ header {
 }
 
 header img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
   text-align: center;
 }
@@ -223,7 +222,7 @@ section p {
 }
 
 .service img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
   border-radius: 8px;
   margin-bottom: 10px;
@@ -250,7 +249,7 @@ section p {
 }
 
 #project-showcase img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
   margin: 20px 0;
 }
@@ -324,7 +323,7 @@ footer {
 }
 
 .footer-logo img {
-  max-width: 150px;
+  width: 100px;
 }
 
 .footer-contact h4 {
