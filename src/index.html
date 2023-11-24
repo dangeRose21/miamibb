@@ -2,16 +2,137 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Vanilla JavaScript App</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Miami Best Buidlers</title>
+    <link rel="stylesheet" href="main.css"> <!-- Link to CSS file for styling -->
 </head>
 
 <body>
-  <main>
-    <h1>Vanilla JavaScript App</h1>
-  </main>
-</body>
+    <header>
+        
+        <div class="header-column logo">
+            <img src="logo.png" alt="Company Logo">
+        </div>
+        <div class="header-column navigation">
+            <nav>
+                <ul class="nav-links1">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header-column contact">
+            <p>Call Now: 786-477-0560</p>
+        </div>
 
+        
+    </header>
+
+    <div class="header-banner" >
+        <img src="Images/BannerHome.jpg" alt="Construction Company Banner">
+        <div class="banner-content">
+            <h1>MIAMI</h1>
+            <h1>BEST BUILDERS</h1>
+            <p>Building Dreams, One Brick at a Time. We offer top quality</p>
+        </div>
+    </div>
+<!---
+    <nav>
+        <ul class="nav-links">
+            <li><a href="Pages/About.html">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="Pages/Portfolio.html">Portfolio</a></li>
+            <li><a href="Pages/FAQ.html">Portfolio</a></li>
+            <li><a href="Pages/ContactUs.html">Contact Us</a></li>
+        </ul>
+    </nav>
+--->
+    <section id="about">
+        <div class="about-section">
+            <h2>ABOUT MIAMI BEST BUILDERS</h2>
+            <p>From cozy homes to luxury estates...We understand the demands of commercial construction...Give your existing space a fresh look...Our skilled architects and designers work closely...</p>
+        </div>
+    </section>
+
+    <section id="services">
+        <h2>Services</h2>
+        <p>providing quality work at a very affordable price. We pride ourselves in the high level of output that we provide to different industries such as hotels, glass manufacturers, restaurants, store fronts, automotive and residential and many more.</p>
+        <div class="service">
+            <img src="service1.jpg" alt="Service 1">
+            <h3>Residential Construction</h3>
+            <p>From cozy homes to luxury estates...</p>
+        </div>
+        <div class="service">
+            <img src="service2.jpg" alt="Service 2">
+            <h3>Commercial Projects</h3>
+            <p>We understand the demands of commercial construction...</p>
+        </div>
+        <div class="service">
+            <img src="service3.jpg" alt="Service 3">
+            <h3>Renovation & Remodeling</h3>
+            <p>Give your existing space a fresh look...</p>
+        </div>
+    </section>
+
+    <section id="why-choose-us">
+        <h2>Why Choose Us</h2>
+        <ul>
+            <li>Expert Team</li>
+            <li>Quality Craftsmanship</li>
+            <li>Transparent Process</li>
+            <li>Client-Centric Approach</li>
+            <li>Timely Delivery</li>
+        </ul>
+    </section>
+
+    <section id="project-showcase">
+        <h2>Project Showcase</h2>
+        <img src="project1.jpg" alt="Project 1">
+        <img src="project2.jpg" alt="Project 2">
+        <img src="project3.jpg" alt="Project 3">
+    </section>
+
+    <section id="contact">
+        <h2>GET IN TOUCH WITH US</h2>
+        <p>Have questions or a very specific need?<br>Contact us and we will get back to you shortly.</p>
+        <div class="contact-form"></div>
+            <form action="submit_form.php" method="POST"> <!-- Replace with your form handling script -->
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>    
+    </section>
+
+    <footer>
+        <div class="footer-logo">
+            <img src="logo-footer.png" alt="Logo">
+        </div>
+        <div class="footer-contact">
+            <h4>Opening Hours: </h4>
+            <p>Monday - Friday<br>9am - 6pm</p>
+            <h4>Phone:</h4>
+            <p>786.477.0560</p>
+            <h4>Email:</h4>
+            <p>info@miamibestbuilders.com</p>
+        </div>
+        <p class="footer-copyright">&copy; 2023 MIAMI BEST BUILDERS. All Rights Reserved.</p>
+        <div class="footer-social">
+            <a href="https://www.facebook.com"><img src="Images/fb.png" alt="Facebook"></a>
+            <a href="https://www.instagram.com"><img src="Images/ig.png" alt="Instagram"></a>
+            <a href="https://www.youtube.com"><img src="Images/YT.png" alt="YouTube"></a>
+        </div>
+    </footer>
+</body>
 </html>
