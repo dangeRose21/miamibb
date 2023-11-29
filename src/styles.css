@@ -21,6 +21,7 @@ header {
 .header-column nav{
   position: absolute;
   width: 20%;
+
 }
 
 .header-column {
@@ -54,6 +55,7 @@ header {
   margin: 0;
   display: flex;
   justify-content: center;
+  position: relative;
 }
 
 .nav-links1 li {
