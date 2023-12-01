@@ -20,7 +20,7 @@ header {
 
 .header-column nav{
   position: absolute;
-  width: 15%;
+  width: 10%;
 
 }
 
@@ -281,7 +281,7 @@ section p {
 }
 
 .contact-form {
-  max-width: 600px;
+  max-width: 800px;
   margin: 0 auto;
   padding: 20px;
   background-color: #f7f7f7;
